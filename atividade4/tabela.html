@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELA</title>
+    <style>
+        table, th, td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 2px;
+
+            }
+        .Cabeçalho{
+        background-color: #e21111;
+    }
+        .profissional{
+            background-color: #de4b4b;
+        }
+    </style>
+</head>
+<body>
+    <table>
+    <caption>Trajetória Acadêmica e Profissional</caption>
+        <tr class = "Cabeçalho">
+            <th rowspan="2">Estudante</th>
+            <th colspan="2">Formação</th>
+            <th rowspan="2">Ano de conclusão </th>
+        </tr>
+
+        <tr class = "Cabeçalho">
+            <th>Graduação</th>
+            <th>Pós-Graduação</th>
+        </tr>
+        <tr>
+            <th class = "profissional">José</th>
+        <td>Ciencias da computação</td>
+        <td>Inteligencia artificial</td>
+        <td>2023</td>
+        </tr>
+    
+        <tr>
+            <th class = "profissional">ANA</th>
+        <td>Eng de software</td>
+        <td>Gestão de projetos</td>
+        <td>2022</td>
+        </tr>
+        
+    </table>
+    <!-- Formula para criar tabelas rapidamente:
+    tr*3>th*4-->
+</body>
+</html>
